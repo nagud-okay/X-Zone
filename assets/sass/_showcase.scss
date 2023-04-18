@@ -1,0 +1,44 @@
+@import "./mixin";
+
+.showcase_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .showcase_text {
+    h1 {
+      font-family: "DM Sans";
+      font-weight: 700;
+      font-size: 58px;
+      letter-spacing: 0.02em;
+      background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    }
+    p {
+      font-family: "DM Sans";
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 30px;
+      color: #e5e7eb;
+      margin: 30px 0;
+    }
+    form {
+      display: flex;
+      gap: 15px;
+      button {
+        background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+        border: none;
+        border-radius: 6px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #f9fafb;
+        padding: 15px;
+      }
+    }
+  }
+}

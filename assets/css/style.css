@@ -1,3 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-image: url(../../img/background.png);
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 875px) {
+  .container {
+    width: 90%;
+  }
+}
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.navbar .nav_links {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.navbar .nav_links ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.navbar .nav_links ul li a {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  color: #f9fafb;
+}
+.navbar .nav_links form button {
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  color: #f9fafb;
+}
+
+.showcase_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.showcase_box .showcase_text h1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 58px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+.showcase_box .showcase_text p {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #e5e7eb;
+  margin: 30px 0;
+}
+.showcase_box .showcase_text form {
+  display: flex;
+  gap: 15px;
+}
+.showcase_box .showcase_text form button {
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border: none;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #f9fafb;
+  padding: 15px;
+}
+
+.servise {
+  margin: 50px 0;
+}
+
+.servise_box .servise_text h1 {
+  text-align: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 42px;
+  color: #ffffff;
+}
+.servise_box .servise_text p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 0;
+  text-align: center;
+}
+.servise_box .servive_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.servise_box .servive_grid .card {
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.servise_box .servive_grid .card h2 {
+  background: linear-gradient(to top, #8a7fd9, #402f8f);
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+}
+.servise_box .servive_grid .card h1 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.servise_box .servive_grid .card p {
+  font-family: "DM Sans";
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+}
+.servise_box .servive_grid .card button {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */
